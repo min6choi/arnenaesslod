@@ -1,0 +1,1255 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Arne Naess LOD</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1>Arne Naess LOD</h1>
+						<p>A Linked Open Data project for connecting LAM(Libraries, Archives & Museums) 
+							resources related to <br />Arne naess who is the pioneer of environmental philosophy.<br /></a></p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#about" class="active">About</a></li>
+							<li><a href="#items">Items</a></li>
+							<li><a href="#ermodel">E/R model</a></li>
+							<li><a href="#metadata">Meta data</a></li>
+							<li><a href="#tmodel">Theoretical Model</a></li>
+							<li><a href="#cmodel">Conceptual Model</a></li>
+							<li><a href="#datad">Data Description</a></li>
+							<li><a href="#rdf">RDF</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- About -->
+						<section id="about" class="main special">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>Arne Naess LOD</h2>
+									</header>
+									<p>Arne Naess (27 January 1912 - 12 January 2009) was an environmental
+										 philosopher who coined the term “deep ecology”. Influenced by various
+										  fields, he developed his philosophy and lived a life as an intellectual who 
+										participated in and acted in environmental protection campaigns.</p>
+									<p>Arne Naess LOD's purpose is to find items which are related to Arne naess 
+										through libraries, archives and museums and connect them to each other 
+										based on key elements of his life.</p>
+								</div>
+								<span class="image"><img src="images/pro02.png" alt="" /></span>
+							</div>
+						</section>
+
+						<!-- items -->
+						<section id="items" class="main special">
+							<header class="major">
+								<h2>Items</h2>
+								<p>I collected 6 items related to places, events, or physical objects that were an important part of his life.
+                                </p>
+							</header>
+							<ul class="features">
+								<li>
+									<span class="image"><img src="images/p01.jpeg" alt="" /></span>
+									<h3>Film</h3>
+									<p><strong>Crossing the Stones</strong> , 1993<br/>
+										The documentary film about Arne Naess who is philosopher and founder of 'deep ecology' from <a href="https://searchworks.stanford.edu/view/10715419">Stanford Libraries</a></p>
+								</li>
+								<li>
+									<span class="image"><img src="images/p02.png" alt="" /></span>
+									</a>
+									<h3>Book</h3>
+									<p><strong>Slient Spring</strong>, 1962<br/>
+										An environmental science book by Rachel carson from <a href="https://lod.nl.go.kr/home/ir/irdetail.jsp?uri=http://lod.nl.go.kr/resource/WMO000055969&materialCount=2&authorCount=0&subjectCount=0&libraryCount=0&originalKeywrod=silent+spring&combinatedKeywrod=silent+spring&SetType=%EC%9E%90%EB%A3%8C">National Library of Korea</a></p>
+								</li>
+								<li>
+									<span class="image"><img src="images/p03.png" alt="" /></span>
+									</a>
+									<h3>Photography</h3>
+									<p><strong>Næss, Arne [bilde 007]</strong> , 1983<br/>
+									   A photography depicting Arne Naess protesting from <a href="https://www.nb.no/items/da45d9f310d1b38ab0f82d27bcfc8ac9?page=0&searchText=Arne%20N%C3%A6ss">Nasjonalbiblioteket</a></p>
+								</li>
+								<li>
+									<span class="image"><img src="images/p04.png" alt="" /></span>
+									</a>
+									<h3>Photography</h3>
+									<p><strong>Mardalsfossen</strong> , 1972<br/>
+									   A photography of Mardalsfossen landscape from <a href="https://www.nb.no/items/d3bdcef6f8443173393121595d1d7f48?page=0&searchText=Mardalsfossen">Nasjonalbiblioteket</a></p>
+								</li>
+								<li>
+									<span class="image"><img src="images/p05.png" alt="" /></span>
+								    </a>
+									<h3>Book</h3>
+									<p><strong>Ethica</strong> , 1963<br/>
+										A book on ethics written by Spinoza from <a href="https://sol.unibo.it/SebinaOpac/resource/ethica/UBO0046463">SBN UBO</a></p>
+								</li>
+								<li>
+									<span class="image"><img src="images/p06.png" alt="" /></span>
+									</a>
+									<h3>Craft</h3>
+									<p><strong>Mardøla blues</strong> , 1970<br/> 
+										A craft poster for Mardøla aksjonen which is a envornmental protection campaign from <a href="https://digitaltmuseum.no/011062540388/mardola-blues-plakat">DigitaltMuseum</a></p>
+								</li>
+							</ul>
+							<footer class="major">
+							</footer>
+						</section>
+
+						<!-- E/R model -->
+						<section id="ermodel" class="main special">
+							<header class="major">
+								<h2>E/R Model</h2>
+								<p>E/R Model is an Entity/Relation model. 
+									In this model, the focus of domain "Arne naess" 
+									relates the event "Mardøla Campaign", the place 
+									"Mardalsfossen" and the concept "Deep ecology".</p>
+								<p style="font-size:90%;">*Entities expressed in <strong>green, yellow, and orange</strong> are 
+									expressed in relation to <strong>blue</strong> attributes through <strong>white</strong> 
+									relationships.</p>
+							</header>
+							<section class="wrapper style2 align-center color9">
+								<div class="inner">
+									<span class="image fit"><img src="images/arne.svg" alt="" /></span>
+									<br>
+									<br>					    
+									   <ul class="actions stacked">
+										<li><a href="ermodelgraph.html" class="button small" id=positionx><strong>Discove more</strong></a></li>
+									   </ul>
+						   </section>
+						</section>
+
+						<!-- First Section -->
+							<section id="metadata" class="main special">
+								<header class="major">
+									<h2>Meta data</h2>
+								</header>
+									<h3>Metadata Standard</h3>
+									<ul class="features">
+										<p>The analysis of items that includes information about typology, providers, and metadata standards used.</p>
+										<table class="alt">
+											<thead>
+											<br>
+												<tr>
+													<th>Item</th>
+													<th>Provider</th>
+													<th>Type of provider</th>
+													<th>Country</th>
+													<th>Standard</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td class="no">Flim</td>
+													<td>Stanford Libraries</td>
+													<td>Library</td>
+													<td rowspan="1" style="vertical-align : middle;text-align:center;">United States</td>
+													<td>MODS</td>
+												</tr>
+							
+												<tr>
+													<td class="no">Book</td>
+													<td>Sbn</td>
+													<td>Library</td>
+													<td rowspan="1" style="vertical-align : middle;text-align:center;">South Korea</td>
+													<td>DCMI</td>
+												</tr>
+												<tr>
+													<td class="no">Photography</td>
+													<td>Nasjonalbiblioteket</td>
+													<td>Library</td>
+													<td rowspan="1" style="vertical-align : middle;text-align:center;">Norway</td>
+													<td>MARC21</td>
+												</tr>
+											
+												<tr>
+													<td class="no">Photography</td>
+													<td>Nasjonalbiblioteket</td>
+													<td>Library</td>
+													<td>Norway</td>
+													<td>MARC21</td>
+												</tr>
+												<tr>
+													<td class="no">Book</td>
+													<td>Sbn ubo</td>
+													<td>Library</td>
+													<td rowspan="1" style="vertical-align : middle;text-align:center;">Italy</td>
+													<td>MARC21*</td>
+												</tr>
+												<tr>
+													<td class="no">Craft</td>
+													<td>Digitalt Museum</td>
+													<td>Museum</td>
+													<td>Norway</td>
+													<td>MODS*</td>
+												</tr>
+											</tbody>
+										</table>
+										<p style="font-size:80%">*I chose suitable Metadata standards personally, 
+											when they don't have a explanation about their metadata standard. </p>
+									</ul>
+									<br/>
+									<h3>Metadata Alignment</h3>
+									<p>The alignment is between different standards that used to address information 
+										related to people, places, dates and concepts. And it used by cultural heritage institutions. </p>
+									<br/>
+									<h4><strong>WHO</strong></h4>
+										<table class="alt">
+											<thead>
+											<br>
+												<tr>
+													<th>Property</th>
+													<th>MODS</th>
+													<th>DCMI</th>
+													<th>MARC21</th>
+												</tr>
+											</thead>
+											<tbody style="font-size:80%">
+												<tr>
+													<td><strong>Who is the creator?</strong></td>
+													<td>modsrdf:name</td>
+													<td>dc:creator</td>
+													<td>
+														100 - Main Entry-Personal Name <br/>
+														$a - Personal Name</td>
+												</tr>
+												<tr>
+													<td><strong>Who is the contributor?</strong></td>
+													<td>modsrdf:name</td>
+													<td>dc:contributor</td>
+													<td>
+														700 Personal Name,<br/>
+														710 Corporate Name</td>
+												</tr>
+												<tr>
+													<td><strong>who is the owner?</strong></td>
+													<td>/</td>
+													<td>dcterms:provenance</td>
+													<td>561 Ownership and Custodial History</td>
+												</tr>
+												<tr>
+													<td><strong>Who is the publisher?</strong></td>
+													<td>modsrdf:publisher</td>
+													<td>dc:publisher</td>
+													<td>
+														260 Publication, Distribution, etc <br/>
+														$b - Name of publisher, distributor, etc</td>
+												</tr>
+												<tr>
+													<td><strong>Who owns the rights for image reproduction?</strong></td>
+													<td>/</td>
+													<td>dc:rights
+														dcterms:rightsHolder</td>
+													<td>540 Terms Governing Use and Reproduction $a Terms governing use and reproduction and
+														542 - Information Relating to Copyright Status $d Copyright holder</td>
+												</tr>
+											</tbody>
+										</table>
+										<br/><br/>
+										<h4><strong>WHEN</strong></h4>
+										<table class="alt">
+											<thead>
+											<br>
+												<tr>
+													<th>Property</th>
+													<th>MODS</th>
+													<th>DCMI</th>
+													<th>MARC21</th>
+												</tr>
+											</thead>
+											<tbody style="font-size:80%">
+												<tr>
+													<td><strong>When was the item created?</strong></td>
+													<td>modsrdf:datecreated</td>
+													<td>dcterms:created</td>
+													<td>
+														260 - Publication, Distribution etc <br/>
+														$g - Date of manufacture</td>
+												</tr>
+												<tr>
+													<td><strong>When was the item published?</strong></td>
+													<td>/</td>
+													<td>dcterms:issued</td>
+													<td>
+														260 - Publication, Distribution etc <br/>
+														$c - Date of publication, distribution, etc.</td>
+												</tr>
+												<tr>
+													<td><strong>What is the duration</strong></td>
+													<td>/</td>
+													<td>dcterms:extent</td>													
+													<td>/</td>
+												</tr>
+												<tr>
+													<td><strong>What is the epoque?</strong></td>
+													<td>/</td>
+													<td>dcterms:temporal</td>													
+													<td>/</td>
+												</tr>
+											</tbody>
+										</table>
+										<br/><br/>
+										<h4><strong>WHERE</strong></h4>
+										<table class="alt">
+											<thead>
+											<br>
+												<tr>
+													<th>Property</th>
+													<th>MODS</th>
+													<th>DCMI</th>
+													<th>MARC21</th>
+												</tr>
+											</thead>
+											<tbody style="font-size:80%">
+												<tr>
+													<td><strong>Where was the item created?</strong></td>
+													<td>/</td>
+													<td>dc:coverage</td>
+													<td>264 - Production, Publication, Distribution, Manufacture, and Copyright Notice <br/>
+														$a - Place of production</td>
+												</tr>
+												<tr>
+													<td><strong>Where was the item published?</strong></td>
+													<td>modsrdf:placeOfOrigin</td>
+													<td>dc:coverage</td>
+													<td>
+														260 - Publication, Distribution etc <br/>
+														$a - Place of publication, distribution, etc.</td>
+												</tr>
+											</tbody>
+										</table>
+										<br/><br/>
+										<h4><strong>WHAT</strong></h4>
+										<table class="alt">
+											<thead>
+											<br>
+												<tr>
+													<th>Property</th>
+													<th>MODS</th>
+													<th>DCMI</th>
+													<th>MARC21</th>
+												</tr>
+											</thead>
+											<tbody style="font-size:80%">
+												<tr>
+													<td><strong>What is the title?</strong></td>
+													<td>modsrdf:title</td>
+													<td>dc:title</td>
+													<td>245 Title Statement $a Title Proper</td>
+												</tr>
+												<tr>
+													<td><strong>What is the subject?</strong></td>
+													<td>modsrdf:subject</td>
+													<td>dc:subject</td>
+													<td>650 Subject added entry, Topical heading <br/>
+														651 Subject added entry - geographic name <br/>
+														653 Index term - uncontrolled <br/>
+														647 Subject Added Entry-Named Event</td>
+												</tr>
+												<tr>
+													<td><strong>What is the format?</strong></td>
+													<td>/</td>
+													<td>dc:format</td>
+													<td>856 Electronic Location and access <br/>
+														$q - Electronic format type</td>
+												</tr>
+												<tr>
+													<td><strong>What is the type?</strong></td>
+													<td>/</td>
+													<td>dc:type</td>
+													<td>Leader 06 - Type of record</td>
+												</tr>
+												<tr>
+													<td><strong>What is the description?</strong></td>
+													<td>/</td>
+													<td>dc:description</td>
+													<td>520 Summary, Abstract Note</td>
+												</tr>
+												<tr>
+													<td><strong>What is the providing country?</strong></td>
+													<td>/</td>
+													<td>/</td>
+													<td>662 Subject Added Entry - Hierarchical Place Name <br/>
+														$a - Country or larger entity</td>
+												</tr>
+												<tr>
+													<td><strong>What is the language?</strong></td>
+													<td>modsrdf:languageOfResource</td>
+													<td>dc:language</td>
+													<td>546 Language Note</td>
+												</tr>
+												<tr>
+													<td><strong>What are the notes related to the item?</strong></td>
+													<td>/</td>
+													<td>/</td>
+													<td>520- Summary, ect <br/>
+														 $a - Summary, etc.</td>
+												</tr>
+											</tbody>
+										</table>
+
+									
+							</section>
+
+						<!-- Second Section -->
+							<section id="tmodel" class="main special">
+								<header class="major">
+									<h2>Theoretical Model</h2>
+									<p>Theoretical model is that can explain specific questions 
+										and answers to the selected items. Questions consists of 
+										Who?, Where?, When? and What?</p>
+								</header>
+									<h3>Who?</h3>
+									<p>In this project, the central event, place, or content of a 
+										person's life was planned to be expressed. Therefore, in the 
+										case of this model, in addition to the basic information of a
+										 person, it is important to consider what the person has accomplished
+										  in life, such as his job or achievement. In order to describe accurately,
+										   i decided to use FOAF, DBpedia, PCV, GNDO and Core Concepts Ontology</p>
+									<h3>Where?</h3>
+									<p>For places, I thought that a more microscopic approach was necessary 
+										because the location of the main character's activities was limited to one 
+										country. Therefore, I thought it was appropriate to use Geo Names, Basic Geo, 
+										DBpedia, Schema, and FOAF.</p>
+									<h3>When?</h3>
+									<p>It was mainly based on the year he was born to the year of his death, 
+										but the time of some items was not included in the standard, so i did 
+										not set a specific period. It was decided to encode all dates in complete 
+										date YYYY-MM-DD and YYYY formats using the international standard ISO 8601.</p>
+									<h3>What?</h3>
+									<p>The project was planned based on how he derived a new concept based on what
+										 he had absorbed in the past. Therefore, in this case, I felt the need to
+										  explain historical knowledge, and based on that point, I tried to express
+										   it through BIO, CIDOC-CRM, DCMI metadata Terms, EVENT, FOAF, SKOS, and DBpedia.</p>
+									<br/>
+									<h3>Theoretical graphs</h3>
+									<section class="wrapper style2 align-center color9">
+										<div class="inner">
+											<span class="image fit"><img src="images/arne3.svg" alt="" /></span>
+											<br>	
+											<br>				    
+												<ul class="actions stacked">
+												<li><a href="tgraph.html" class="button small" id=positionx><strong>More graphs</strong></a></li>
+												</ul>
+									</section>
+							</section>
+
+						    <!-- conceptual model -->
+							<section id="cmodel" class="main special">
+								<header class="major">
+									<h2>Conceptual Model</h2>
+									<p>I made a conceptual model using schemas, ontologies and vocabularies 
+										that were selected in the theoretical model.</p>
+								</header>
+								<!-- Table -->
+								<section class="wrapper style1 align-center">
+									<div class="inner" id="people">
+									<h2>People</h2>
+										<div class="content">
+											<div class="table-wrapper">
+												<table class="fixed">
+													<thead>
+													<tr>
+														<th>Question</th>
+														<th>Predicate</th>
+														<th>Model</th>
+													</tr>
+													</thead>
+													<tbody style="font-size:80%">
+													<tr>
+														<td>What type of entity?</td>
+														<td>rdf:type</td>
+														<td>RDF</td>
+													</tr>
+													<tr>
+														<td>What is the person's name?</td>
+														<td>foaf:firstName</td>
+														<td>FOAF</td>
+													</tr>
+													<tr>
+														<td>What is the person's surname?</td>
+														<td>foaf:lastName</td>
+														<td>FOAF</td>
+													</tr>
+													<tr>
+														<td>What is the gender?</td>
+														<td>foaf:gender</td>
+														<td>FOAF</td>
+													</tr>
+													<tr>
+														<td>What is the person nationality?</td>
+														<td>dbo:nationality</td>
+														<td>DBpedia</td>
+													</tr>
+													<tr>
+														<td>In which place was the person born?</td>
+														<td>person:placeOfBirth</td>
+														<td>PCV</td>
+													</tr>
+													<tr>
+														<td>In which country was the person born?</td>
+														<td>person:countryOfBirth</td>
+														<td>PCV</td>
+													</tr>
+														<tr>
+														<td>When was the person born?</td>
+														<td>gndo:dataOfBirth</td>
+														<td>GNDO</td>
+													</tr>
+													<tr>
+														<td>When did the person die?</td>
+														<td>gndo:dataOfDeath</td>
+														<td>GNDO</td>
+													</tr>
+													<tr>
+														<td>Where did the person die?</td>
+														<td>person:placeOfDeath</td>
+														<td>GNDO</td>
+													</tr>
+													<tr>
+														<td>Where did the person live?</td>
+														<td>dbo:livingPlace</td>
+														<td>DBpedia</td>
+													</tr>
+													<tr>
+														<td>What topic that person is interested in philosophy?</td>
+														<td>foaf:interest</td>
+														<td>FOAF</td>
+													</tr>
+													<tr>
+														<td>Where was the person active?</td>
+														<td>gndo:placeOfActivity</td>
+														<td>GNDO</td>
+													</tr>
+													<tr>
+														<td>What did the person influence?</td>
+														<td>dbo:influenced</td>
+														<td>DBpedia</td>
+													</tr>
+													<tr>
+														<td>In which resource is the person depicted?</td>
+														<td>foaf:depiction</td>
+														<td>FOAF</td>
+													</tr>
+													<tr>
+														<td>What is the person's occupation?</td>
+														<td>core:occupation</td>
+														<td>Core Concepts Ontology</td>
+													</tr>
+													<tr>
+														<td>What did the person do?</td>
+														<td>core:knownFor</td>
+														<td>Core Concepts Ontology</td>
+													</tr>
+													</tbody>
+												</table>
+											</div>
+											</div>
+										</div>
+										<br/>
+										<br/>
+										<br/>
+										<section class="wrapper style1 align-center">
+											<div class="inner" id="place">
+											<h2>Place</h2>
+												<div class="content">
+													<div class="table-wrapper">
+														<table class="fixed">
+															<thead>
+															<tr>
+																<th>Question</th>
+																<th>Predicate</th>
+																<th>Model</th>
+															</tr>
+															</thead>
+															<tbody style="font-size:80%">
+															<tr>
+																<td>What is the genetic type?</td>
+																<td>rdf:type</td>
+																<td>RDF</td>
+															</tr>
+															<tr>
+																<td>What is the name of the place?</td>
+																<td>gn:name</td>
+																<td>GeoNames</td>
+															</tr>
+															<tr>
+																<td>What is the alternative name of the place?</td>
+																<td>gn:alternateName</td>
+																<td>GeoNames</td>
+															</tr>
+															<tr>
+																<td>In which country is the place located?</td>
+																<td>gn:parentCountry</td>
+																<td>GeoNames</td>
+															</tr>
+															<tr>
+																<td>What is the country code?</td>
+																<td>gn:countryCode</td>
+																<td>GeoNames</td>
+															</tr>
+															<tr>
+																<td>what is the latitude?</td>
+																<td>geo:lat</td>
+																<td>Basic Geo</td>
+															</tr>
+															<tr>
+																<td>What is the longitude?</td>
+																<td>geo:long</td>
+																<td>Basic Geo</td>
+															</tr>
+																<tr>
+																<td>What is the place wikipedia page?</td>
+																<td>dbo:wikiPageExternalLink</td>
+																<td>DBpedia</td>
+															</tr>
+															<tr>
+																<td>What is the description?</td>
+																<td>dbo:abstract</td>
+																<td>DBpedia</td>
+															</tr>
+															<tr>
+																<td>What is the event associated to the place?</td>
+																<td>schema:event</td>
+																<td>Schema</td>
+															</tr>
+															<tr>
+																<td>In which resource is the place depicted?</td>
+																<td>foaf:depiction</td>
+																<td>FOAF</td>
+															</tr>
+															</tbody>
+														</table>
+													</div>
+													</div>
+												</div>
+												<br/>
+												<br/>
+												<br/>
+												<section class="wrapper style1 align-center">
+													<div class="inner" id="when">
+													<h2>When</h2>
+														<div class="content">
+															<div class="table-wrapper">
+																<table class="fixed">
+																	<thead>
+																	<tr>
+																		<th>Question</th>
+																		<th>Predicate</th>
+																		<th>Model</th>
+																	</tr>
+																	</thead>
+																	<tbody style="font-size:80%">
+																	<tr>
+																		<td>What type of entity?</td>
+																		<td>rdf:type</td>
+																		<td>RDF</td>
+																	</tr>
+																	<tr>
+																		<td>What is the duration of the event?</td>
+																		<td>time:hasTemporalDuration</td>
+																		<td>Time Ontology</td>
+																	</tr>
+																	<tr>
+																		<td>When is the beginning of the time span?</td>
+																		<td>time:hasBeginning</td>
+																		<td>Time Ontology</td>
+																	</tr>
+																	<tr>
+																		<td>When is the end of the time span?</td>
+																		<td>time:hasEnd</td>
+																		<td>Time Ontology</td>
+																	</tr>
+																	</tbody>
+																</table>
+															</div>
+															</div>
+														</div>
+														<br/>
+														<br/>
+														<br/>
+														<section class="wrapper style1 align-center">
+															<div class="inner" id="event">
+															<h2>Event</h2>
+																<div class="content">
+																	<div class="table-wrapper">
+																		<table class="fixed">
+																			<thead>
+																			<tr>
+																				<th>Question</th>
+																				<th>Predicate</th>
+																				<th>Model</th>
+																			</tr>
+																			</thead>
+																			<tbody style="font-size:80%">
+																			<tr>
+																				<td>What type of entity?</td>
+																				<td>rdf:type</td>
+																				<td>RDF</td>
+																			</tr>
+																			<tr>
+																				<td>what is the title?</td>
+																				<td>crm:P102_has_title</td>
+																				<td>CIDOC-CRM</td>
+																			</tr>
+																			<tr>
+																				<td>What is the subject?</td>
+																				<td>dcterms:subject</td>
+																				<td>DCMI Metadata Terms</td>
+																			</tr>
+																			<tr>
+																				<td>What was motivated by?</td>
+																				<td>crm:P17_was_motivated_by</td>
+																				<td>CIDOC-CRM</td>
+																			</tr>
+																			<tr>
+																				<td>Who is the person that officiates at a protest event?</td>
+																				<td>bio:officiator</td>
+																				<td>BIO</td>
+																			</tr>
+																			<tr>
+																				<td>Where was the event held?</td>
+																				<td>bio:place</td>
+																				<td>BIO</td>
+																			</tr>
+																			<tr>
+																				<td>When was the event held?</td>
+																				<td>bio:date</td>
+																				<td>BIO</td>
+																			</tr>
+																			<tr>
+																				<td>Is there an item related to the event?</td>
+																				<td>event:factor</td>
+																				<td>EVENT</td>
+																			</tr>
+																			<tr>
+																				<td>Where is depicted?</td>
+																				<td>foaf:depiction</td>
+																				<td>FOAF</td>
+																			</tr>
+																			<tr>
+																				<td>What is the event wikipedia page?</td>
+																				<td>dbo:wikiPageExternalLink</td>
+																				<td>DBpedia</td>
+																			</tr>
+																			</tbody>
+																		</table>
+																	</div>
+																	</div>
+																</div>
+																<br/>
+																<br/>
+																<br/>
+																<section class="wrapper style1 align-center">
+																	<div class="inner" id="concept">
+																	<h2>Concept</h2>
+																		<div class="content">
+																			<div class="table-wrapper">
+																				<table class="fixed">
+																					<thead>
+																					<tr>
+																						<th>Question</th>
+																						<th>Predicate</th>
+																						<th>Model</th>
+																					</tr>
+																					</thead>
+																					<tbody style="font-size:80%">
+																					<tr>
+																						<td>What type of entity?</td>
+																						<td>rdf:type</td>
+																						<td>RDF</td>
+																					</tr>
+																					<tr>
+																						<td>what is the title?</td>
+																						<td>crm:P102_has_title</td>
+																						<td>CIDOC-CRM</td>
+																					</tr>
+																					<tr>
+																						<td>Which resource has the concept as primary topic?</td>
+																						<td>foaf:isPrimaryTopicOf</td>
+																						<td>FOAF</td>
+																					</tr>
+																					<tr>
+																						<td>What are the books related to the concept?</td>
+																						<td>skos:related</td>
+																						<td>SKOS</td>
+																					</tr>
+																					<tr>
+																						<td>When did it start?</td>
+																						<td>dbo:start</td>
+																						<td>DBpedia</td>
+																					</tr>
+																					</tbody>
+																				</table>
+																			</div>
+																			</div>
+																		</div>
+
+						</section>
+						<br/><br/>
+						<h3>The result</h3>
+							<section class="wrapper style2 align-center color9">
+								<div class="inner">
+									<span class="image fit"><img src="images/arne4.svg" alt="" /></span>
+									<br>	
+									<br>				    
+							</section>
+						
+						<!-- Get Started -->
+						<section id="datad" class="main special">
+							<header class="major">
+								<h2>Data Description</h2>
+								<p>This is a description of data which was made in previous models. 
+									This data description is based on triplets which are subject, predicate and object.</p>
+							</header>
+								<div class="inner" id="concept">
+								<h2 style="text-align:left">&ensp;Arne naess (Person)</h2>
+									<div class="content">
+										<div class="table-wrapper">
+											<table class="fixed">
+												<thead>
+												<tr>
+													<th>Question</th>
+													<th>Predicate</th>
+													<th>Object</th>
+												</tr>
+												</thead>
+												<tbody style="font-size:80%">
+													<tr>
+														<td>What type of entity?</td>
+														<td>rdf:type</td>
+														<td>Person</td>
+													</tr>
+													<tr>
+														<td>What is the person's name?</td>
+														<td>foaf:firstName</td>
+														<td>Arne</td>
+													</tr>
+													<tr>
+														<td>What is the person's surname?</td>
+														<td>foaf:lastName</td>
+														<td>Naess</td>
+													</tr>
+													<tr>
+														<td>What is the gender?</td>
+														<td>foaf:gender</td>
+														<td>Male</td>
+													</tr>
+													<tr>
+														<td>What is the person nationality?</td>
+														<td>dbo:nationality</td>
+														<td>Norway</td>
+													</tr>
+													<tr>
+														<td>In which place was the person born?</td>
+														<td>person:placeOfBirth</td>
+														<td>Slemdal, Oslo</td>
+													</tr>
+													<tr>
+														<td>In which country was the person born?</td>
+														<td>person:countryOfBirth</td>
+														<td>Norway</td>
+													</tr>
+														<tr>
+														<td>When was the person born?</td>
+														<td>gndo:dataOfBirth</td>
+														<td>1912-01-27</td>
+													</tr>
+													<tr>
+														<td>When did the person die?</td>
+														<td>gndo:dataOfDeath</td>
+														<td>2009-01-12</td>
+													</tr>
+													<tr>
+														<td>Where did the person die?</td>
+														<td>person:placeOfDeath</td>
+														<td>Oslo</td>
+													</tr>
+													<tr>
+														<td>Where did the person live?</td>
+														<td>dbo:livingPlace</td>
+														<td>Hallingskarvet</td>
+													</tr>
+													<tr>
+														<td>What topic that person is interested in philosophy?</td>
+														<td>foaf:interest</td>
+														<td>Environmental Philosophy<br/>
+															Environmental Ethics</td>
+													</tr>
+													<tr>
+														<td>Where was the person active?</td>
+														<td>gndo:placeOfActivity</td>
+														<td>Norway</td>
+													</tr>
+													<tr>
+														<td>What did the person influence?</td>
+														<td>dbo:influenced</td>
+														<td>Deep Ecology</td>
+													</tr>
+													<tr>
+														<td>In which resource is the person depicted?</td>
+														<td>foaf:depiction</td>
+														<td>Documentary Film about Arne Naess</td>
+													</tr>
+													<tr>
+														<td>What is the person's occupation?</td>
+														<td>core:occupation</td>
+														<td>Philosopher</td>
+													</tr>
+													<tr>
+														<td>What did the person do?</td>
+														<td>core:knownFor</td>
+														<td>Philosopher<br/>
+															Writer<br/>
+															Professor<br/>
+															Mountaineer</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										</div>
+									</div>
+									<br/>
+									<br/>
+									<div class="inner" id="concept">
+										<h2 style="text-align:left">&ensp;Mardalsfossen (Place)</h2>
+											<div class="content">
+												<div class="table-wrapper">
+													<table class="fixed">
+														<thead>
+														<tr>
+															<th>Question</th>
+															<th>Predicate</th>
+															<th>Object</th>
+														</tr>
+														</thead>
+														<tbody style="font-size:80%">
+															<tr>
+																<td>What is the genetic type?</td>
+																<td>rdf:type</td>
+																<td>Plcce</td>
+															</tr>
+															<tr>
+																<td>What is the name of the place?</td>
+																<td>gn:name</td>
+																<td>Tiered Waterfall</td>
+															</tr>
+															<tr>
+																<td>In which country is the place located?</td>
+																<td>gn:parentCountry</td>
+																<td>Norway</td>
+															</tr>
+															<tr>
+																<td>what is the latitude?</td>
+																<td>geo:lat</td>
+																<td>62.4718943ºN</td>
+															</tr>
+															<tr>
+																<td>What is the longitude?</td>
+																<td>geo:long</td>
+																<td>8.119833472ºN</td>
+															</tr>
+																<tr>
+																<td>What is the place wikipedia page?</td>
+																<td>dbo:wikiPageExternalLink</td>
+																<td>en.wikipedia.org/wiki/Mardalsfossen</td>
+															</tr>
+															<tr>
+																<td>What is the description?</td>
+																<td>dbo:abstract</td>
+																<td>Mardalsfossen is a waterfall in <br/>Molde Municipality 
+																	in Møre og Romsdal county, <br/>Norway. It is sometimes 
+																	referred to as one of <br/>the tallest waterfalls in Europe.</td>
+															</tr>
+															<tr>
+																<td>What is the event associated to the place?</td>
+																<td>schema:event</td>
+																<td>Mardøda Campaign</td>
+															</tr>
+															<tr>
+																<td>In which resource is the place depicted?</td>
+																<td>foaf:depiction</td>
+																<td>Landscape Photograph</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												</div>
+											</div>
+											<br/>
+									<br/>
+									<div class="inner" id="concept">
+										<h2 style="text-align:left">&ensp;Mardøla Campaign (Event)</h2>
+											<div class="content">
+												<div class="table-wrapper">
+													<table class="fixed">
+														<thead>
+														<tr>
+															<th>Question</th>
+															<th>Predicate</th>
+															<th>Object</th>
+														</tr>
+														</thead>
+														<tbody style="font-size:80%">
+															<tr>
+																<td>What type of entity?</td>
+																<td>rdf:type</td>
+																<td>Group event</td>
+															</tr>
+															<tr>
+																<td>what is the title?</td>
+																<td>crm:P102_has_title</td>
+																<td>Mardøla campaign</td>
+															</tr>
+															<tr>
+																<td>What is the subject?</td>
+																<td>dcterms:subject</td>
+																<td>Arne Naess<br/>
+																	Sigmund Kvaløy Setreng<br/>
+																	Odd Einar Dørum</td>
+															</tr>
+															<tr>
+																<td>What was motivated by?</td>
+																<td>crm:P17_was_motivated_by</td>
+																<td>Civil disobedience</td>
+															</tr>
+															<tr>
+																<td>Who is the person that officiates at a protest event?</td>
+																<td>bio:officiator</td>
+																<td>Cooperation groups for nature<br/>
+																	 and environmental protection</td>
+															</tr>
+															<tr>
+																<td>Where was the event held?</td>
+																<td>bio:place</td>
+																<td>Eikesdal</td>
+															</tr>
+															<tr>
+																<td>When was the event held?</td>
+																<td>bio:date</td>
+																<td>1970-07-27</td>
+															</tr>
+															<tr>
+																<td>Is there an item related to the event?</td>
+																<td>event:factor</td>
+																<td>Documentary film<br/>
+																	Campaign poster</td>
+															</tr>
+															<tr>
+																<td>Where is depicted?</td>
+																<td>foaf:depiction</td>
+																<td>Campaign Photograph<br/>
+																	Campaign poster</td>
+															</tr>
+															<tr>
+																<td>What is the event wikipedia page?</td>
+																<td>dbo:wikiPageExternalLink</td>
+																<td>no.wikipedia.org/wiki/Mard%C3%B8la-aksjonen</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												</div>
+											</div>
+											<br/>
+											<br/>
+											<div class="inner" id="concept">
+												<h2 style="text-align:left">&ensp;Deep ecology (Concept)</h2>
+													<div class="content">
+														<div class="table-wrapper">
+															<table class="fixed">
+																<thead>
+																<tr>
+																	<th>Question</th>
+																	<th>Predicate</th>
+																	<th>Object</th>
+																</tr>
+																</thead>
+																<tbody style="font-size:80%">
+																	<tr>
+																		<td>What type of entity?</td>
+																		<td>rdf:type</td>
+																		<td>Concept</td>
+																	</tr>
+																	<tr>
+																		<td>what is the title?</td>
+																		<td>crm:P102_has_title</td>
+																		<td>Deep ecology</td>
+																	</tr>
+																	<tr>
+																		<td>Which resource has the concept as primary topic?</td>
+																		<td>foaf:isPrimaryTopicOf</td>
+																		<td>Environmental Philosophy</td>
+																	</tr>
+																	<tr>
+																		<td>What are the books related to the concept?</td>
+																		<td>skos:related</td>
+																		<td>Slient Spring<br/>
+																			Ethica</td>
+																	</tr>
+																	<tr>
+																		<td>When did it start?</td>
+																		<td>dbo:start</td>
+																		<td>1973</td>
+																	</tr>
+																	<tr>
+																		<td>What is the event wikipedia page?</td>
+																		<td>dbo:wikiPageExternalLink</td>
+																		<td>en.wikipedia.org/wiki/<br/>Deep_ecology</td>
+																	</tr>
+																	<tr>
+																		<td>What is the concept definition?</td>
+																		<td>skos:definition</td>
+																		<td>It is an environmental philosophy <br/> 
+																			that promotes the inherent worth <br/>
+																			of all living beings regardless of <br/>
+																			their instrumental utility to human <br/>
+																			needs, and the restructuring of modern<br/>
+																			 human societies in accordance with such ideas.</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														</div>
+													</div>
+						</section>
+						<br/><br/>
+						<!-- RDF-->
+						<section id="rdf" class="main special">
+							<header class="major">
+								<h2>RDF</h2>
+								<p>For this final step, data is described using a RDF statement that I decided to serialize through Turtle. I, 
+									especially, selected three main entities: people(Arne Naess), place(Mardalsfossen) and event(Mardøla Campaign).
+									  The raw version of RDF and visual representation of RDF also can be discovered..</p>
+								<section class="wrapper style1">								
+									<div class="inner">
+                                     <pre style="text-align: left">
+										<code>
+@base &lt;https://arnenaesslod.github.io/&gt;.
+@prefix rdf: &lt;https://www.w3.org/TR/rdf-schema/#&gt;.
+@prefix foaf: &lt;https://xmlns.com/foaf/0.1/&gt;.
+@prefix gn: &lt;http://www.geonames.org/ontology&gt; .
+@prefix dbo: &lt;http://dbpedia.org/ontology/&gt;.
+@prefix person: &lt;http://www.w3.org/ns/person/&gt;.
+@prefix gndo: &lt;https://d-nb.info/standards/elementset/gnd#&gt;.
+@prefix core: &lt;https://www.bbc.co.uk/ontologies/coreconcepts/&gt;.
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema&gt;.
+@prefix geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;.
+@prefix schema: &lt;http://schema.org/&gt;.
+@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt;.
+@prefix dcterms: &lt;http://purl.org/dc/terms/&gt;.
+@prefix bio: &lt;http://purl.org/vocab/bio/0.1/&gt;.
+@prefix dbc: &lt;http://dbpedia.org/resource/Category:&gt;.
+<br /><br /><br />
+&lt;person/Arne_Naess&gt;
+	rdf:typefoaf:Person;
+	foaf:firstName'Arne';
+	foaf:lastName'Naess';
+	foaf:gender'Male';
+	person:placeOfBirthgn:3138308; #Slemdal, Oslo
+	person:countryOfBirthgn:3144096; #Norway
+	gndo:dataOfBirth'1912-01-27'^^xsd:date;
+	gndo:dataOfDeath'2009-01-12'^^xsd:date;
+	person:placeOfDeathgn:3143244; #Oslo
+	dbo:livingPlacegn:3154173; #Hallingskarvet
+	foaf:interest'Environmental Philosophy',
+		     'Environmental Ethics';
+	gndo:placeOfActivitygn:3144096, #Norway
+	dbo:influenced&lt;concept/Deep_Ecology&gt;;
+	foaf:depiction&lt;item/Documentary_Film_about_Arne_Naess&gt;;
+	core:occupation'Philopher';
+	core:knownFor'Philosopher',
+		     'Writer', 
+	             'Professor',
+	             'Mountaineer';
+	dbo:wikipageExternalLink&lt;https://en.wikipedia.org/wiki/Arne_N%C3%A6ss&gt;.
+<br /><br /><br />
+&lt;place/Mardalsfossen&gt;
+	rdf:typecrm:E53_Place;
+	gn:name'Mardalsfossen';
+	gn:parentCountrygn:3144096; #Norway
+	geo:lat'62.4718943';
+	geo:long'8.119833472';
+	dbo:wikipageExternalLink&lt;https://en.wikipedia.org/wiki/Mardalsfossen&gt;;
+	dbo:abstract'Mardalsfossen is a waterfall in Molde Municipality in M&oslash;re og Romsdal county, Norway. It is sometimes referred to as one of the tallest waterfalls in Europe.';
+	schema:event&lt;evnet/Mard&oslash;la_Campaign&gt;;
+	foaf:depiction&lt;item/Landscape_Photograph&gt;.
+<br /><br /><br />
+&lt;event/Mard&oslash;la_Campaign&gt;
+	rdf:typebio:GroupEvent;
+	crm:P102_has_title'Mard&oslash;la Campaign';
+	dcterms:subject&lt;https://en.wikipedia.org/wiki/Environmental_movement&gt;;
+	bio:principal&lt;person/Arne_Naess&gt;,
+	             &lt;person/Sigmund_Kval&oslash;y_Setreng&gt;,
+	             &lt;person/Odd_Einar_D&oslash;rum&gt;;
+	crm:P17_was_motivated_bydbc:Civil_disobedience;
+	bio:officiator'Cooperation groups for nature and environmental protection';
+	bio:placegn:3158545; #Eikesdal
+	bio:date'1970-07-27'^^xsd:date;
+	foaf:depiction&lt;item/Campaign_Photograph&gt;,
+	              &lt;item/Campaign_Poster&gt;;
+	dbo:wikipageExternalLink&lt;https://no.wikipedia.org/wiki/Mard%C3%B8la-aksjonen&gt;.</code></pre>
+							<div class="major">
+								<ul class="actions special">
+									<li><a href="rdf.ttl" class="button primary">view raw</a></li>
+								</ul>
+							</div>
+							<br/><br/>					
+							<h3>RDF graph</h3>	
+							<section class="wrapper style2 align-center color9">
+								<div class="inner">
+									<span class="image fit">
+										<a href="images/rdfgraph.svg" target="_blank">
+										<img src="images/rdfgraph.svg" alt="" />
+										</a>
+									</span>
+									<br>	
+									<br>
+								</div>				    
+							</section>		
+							</header>
+						</section>
+						
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Purpose</h2>
+							<p>This is a personal academic project.</p>
+						</section>
+						<p class="copyright">&copy; Arnenaesslod</p>
+					</footer>
+
+			    </div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

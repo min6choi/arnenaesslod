@@ -1,0 +1,73 @@
+
+@base <https://arnenaesslod.github.io/>.
+@prefix rdf: <https://www.w3.org/TR/rdf-schema/#>.
+@prefix foaf: <https://xmlns.com/foaf/0.1/>.
+@prefix gn: <http://www.geonames.org/ontology> .
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix person: <http://www.w3.org/ns/person/>.
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#>.
+@prefix core: <https://www.bbc.co.uk/ontologies/coreconcepts/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix schema: <http://schema.org/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix bio: <http://purl.org/vocab/bio/0.1/>.
+@prefix dbc: <http://dbpedia.org/resource/Category:>.
+
+
+
+<person/Arne_Naess>
+    rdf:type foaf:Person;
+    foaf:firstName 'Arne';
+    foaf:lastName 'Naess';
+    foaf:gender 'Male';
+    person:placeOfBirth gn:3138308; #Slemdal, Oslo
+    person:countryOfBirth gn:3144096; #Norway
+    gndo:dataOfBirth '1912-01-27'^^xsd:date;
+    gndo:dataOfDeath '2009-01-12'^^xsd:date;
+    person:placeOfDeath gn:3143244; #Oslo
+    dbo:livingPlace gn:3154173; #Hallingskarvet
+    foaf:interest 'Environmental Philosophy',
+                  'Environmental Ethics';
+    gndo:placeOfActivity gn:3144096, #Norway
+                         gn:1168579; #Pakistan
+    dbo:influenced <concept/Deep_Ecology>;
+    foaf:depiction <item/Documentary_Film_about_Arne_Naess>;
+    core:occupation 'Philopher';
+    core:knownFor 'Philosopher',
+                  'Writer', 
+                  'Professor',
+                  'Mountaineer';
+    dbo:wikipageExternalLink <https://en.wikipedia.org/wiki/Arne_N%C3%A6ss>.
+
+
+
+<place/Mardalsfossen>
+    rdf:type crm:E53_Place;
+    gn:name 'Mardalsfossen';
+    gn:parentCountry gn:3144096; #Norway
+    geo:lat '62.4718943';
+    geo:long '8.119833472';
+    dbo:wikipageExternalLink <https://en.wikipedia.org/wiki/Mardalsfossen>;
+    dbo:abstract 'Mardalsfossen is a waterfall in Molde Municipality in Møre og Romsdal county, Norway. It is sometimes referred to as one of the tallest waterfalls in Europe.';
+    schema:event <evnet/Mardøla_Campaign>;
+    foaf:depiction <item/Landscape_Photograph>.
+
+
+
+<event/Mardøla_Campaign>
+    rdf:type bio:GroupEvent;
+    crm:P102_has_title 'Mardøla Campaign';
+    dcterms:subject <https://en.wikipedia.org/wiki/Environmental_movement>;
+    bio:principal <person/Arne_Naess>,
+                  <person/Sigmund_Kvaløy_Setreng>,
+                  <person/Odd_Einar_Dørum>;
+    crm:P17_was_motivated_by dbc:Civil_disobedience;
+    bio:officiator 'Cooperation groups for nature and environmental protection';
+    bio:place gn:3158545; #Eikesdal
+    bio:date '1970-07-27'^^xsd:date;
+    foaf:depiction <item/Campaign_Photograph>,
+                   <item/Campaign_Poster>;
+    dbo:wikipageExternalLink <https://no.wikipedia.org/wiki/Mard%C3%B8la-aksjonen>.
+
